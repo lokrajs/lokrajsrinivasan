@@ -1,0 +1,34 @@
+.header-bar {
+    background-color: white;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    z-index: 9999;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+
+
+
+    .header { 
+        max-width: 900px;
+        padding: 0rem 3rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;  
+        .header-item { 
+            display:inline;
+            margin-left: 2rem;
+            color:#333;
+        }
+        .header-item:hover{
+            color: black;
+            cursor:pointer;
+        }
+        .header-item.active{
+            border-bottom: 1px solid #333;
+        }
+    }
+  }
+

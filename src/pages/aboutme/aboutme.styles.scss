@@ -1,0 +1,96 @@
+
+
+.summary { 
+    color: #00203FFF;
+// background-image: linear-gradient(#A8E6CE,#DCEDC2,#FFD3B5,#FFAAA6,#FF8C94);
+ h1{
+     margin: 0;
+ }
+ p{
+     padding: 10px;
+     margin: 0;
+ }
+
+}
+
+
+.section { 
+    
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 40px 0px 40px;
+    
+    
+    p { 
+        font-size: 30px;
+    }
+    
+    
+}
+
+.section-text{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#aboutme { 
+    padding-top: 100px;
+    background-color: #ADEFD1ff;
+
+}
+
+// #interests{
+//     background-color: #DCEDC2;
+// }
+
+#education{ 
+   background-color: #ADEFD1ff;
+
+}
+
+
+.education-total { 
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 40px 40px 0px 40px;
+    display: flex;
+    flex-direction: column;
+
+
+
+.education-container { 
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+}
+
+
+.links { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 500px;
+    .git{
+        height: 100px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        .caption{
+            margin: auto;
+        }
+        a{
+            width: 100px;
+        }
+        img{
+            height: 100%;
+        }
+    }
+    
+}
