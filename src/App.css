@@ -13,6 +13,95 @@
   }
 }
 
+
+
+/* #myVid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content{
+  position: relative;
+  background: rgba(0,0,0,0.5);
+} */
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.all { 
+  background: linear-gradient(-45deg, #3b2349,#1d1124,#605865,#dfdde0,#ffffff);
+  background-size: 400% 400%;
+  overflow: auto;
+  animation:  15s ease infinite gradient;
+  position: relative;
+  /* animation: 10000ms ease-in-out infinite color-change;   */
+ 
+}
+
+.container { 
+  width: 100%;
+  height: 100%;
+  top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  text-align: center;
+}
+
+.particles-container { 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
+
+/* @keyframes color-change {
+  0% {
+    background-color: #9CC0E7;
+  }
+  20% {
+    background-color: #EEEEEE;
+  }
+  40% {
+    background-color: #FCFCFC;
+  }
+  60% {
+    background-color: #FAEACB;
+  }
+  80% {
+    background-color:#F7DBD7;
+  }
+  100% {
+    background-color: #9CC0E7;
+  }
+} */
+
+
+.party { 
+  position: absolute;
+  height: 100%;
+  background-color: black;
+}
+
+.thehuah { 
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
 body {
   font-family: 'Cardo', serif;
  }

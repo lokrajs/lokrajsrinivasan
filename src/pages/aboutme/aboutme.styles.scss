@@ -5,6 +5,7 @@
 // background-image: linear-gradient(#A8E6CE,#DCEDC2,#FFD3B5,#FFAAA6,#FF8C94);
  h1{
      margin: 0;
+     margin-left: 200px;
  }
  p{
      padding: 10px;
@@ -14,10 +15,14 @@
 }
 
 
+.content { 
+    z-index: 9000;
+}
+
 .section { 
-    
-    max-width: 100%;
-    margin: 0 auto;
+    z-index: 5000;
+    max-width: 75%;
+    margin: 50px auto;
     padding: 40px 40px 0px 40px;
     
     
@@ -35,14 +40,14 @@
 }
 
 #aboutme { 
-    padding-top: 100px;
     background-color: #ADEFD1ff;
 
 }
 
-// #interests{
-//     background-color: #DCEDC2;
-// }
+#interests{
+    color: #ADEFD1ff;
+    background-color: #00203FFF;
+}
 
 #education{ 
    background-color: #ADEFD1ff;
@@ -52,7 +57,7 @@
 
 .education-total { 
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 75%;
     padding: 40px 40px 0px 40px;
     display: flex;
     flex-direction: column;
@@ -64,7 +69,7 @@
     display: flex;
     flex-direction: column;
     max-width: 800px;
-    margin: 0 auto;
+    margin: auto;
     padding: 40px;
 }
 }
@@ -76,7 +81,7 @@
     justify-content: center;
     max-width: 800px;
     margin: 0 auto;
-    padding-top: 500px;
+    padding-top: 200px;
     .git{
         height: 100px;
         width: 50%;

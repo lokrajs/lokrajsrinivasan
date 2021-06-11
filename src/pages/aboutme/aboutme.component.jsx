@@ -42,6 +42,7 @@ class AboutMePage extends React.Component {
         return(
     <div className = 'summary' >
         <div className='section' id='aboutme'>
+            <div className='content'>
         <h1>About me</h1>
             <div className='section-text'>
         
@@ -56,9 +57,11 @@ class AboutMePage extends React.Component {
         </p>
         </div>
         </div>
+        </div>
 
 
         <div className = 'section' id='interests'>
+            <div className='content'>
         <h1> My interests</h1>
             <div className='section-text'>
         
@@ -75,10 +78,12 @@ class AboutMePage extends React.Component {
         </p>
         </div>
         </div>
+        </div>
 
 
         
         <div className = 'education-total' id = 'education'>
+        <div className='content'>
         <h1>Education</h1>
             <div className='section-text'> 
        
@@ -87,6 +92,7 @@ class AboutMePage extends React.Component {
             {schools.map( ({id,...schoolProps}) => (
                 <Education key={id} {...schoolProps}></Education>
             ))}
+        </div>
         </div>
         </div>
         </div>
