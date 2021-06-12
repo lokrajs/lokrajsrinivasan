@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Particles from 'react-particles-js';
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
