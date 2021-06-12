@@ -57,7 +57,7 @@ class AboutMePage extends React.Component {
         <p>
             This summer I'll be interning at Amazon as an SDE 1 Intern based in Seattle. 
         </p>
-        <br/>
+        
         </div>
         </div>
         </div>
