@@ -18,6 +18,8 @@ import './App.css';
 class App extends React.Component { 
   render() { 
     return(
+      <Switch>
+        <Route exact path='/'>
       <div className='all'>
         <div className='container'>
         <div className='particles-container'>
@@ -61,6 +63,8 @@ class App extends React.Component {
         <AboutMePage/>
         
       </div>
+      </Route>
+      </Switch>
     )
   }
 
