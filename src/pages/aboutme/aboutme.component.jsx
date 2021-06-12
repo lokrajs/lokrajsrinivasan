@@ -49,12 +49,15 @@ class AboutMePage extends React.Component {
         <p>
             I'll be attending Georgia Tech starting this fall to pursue my masters in Computer Science with a specialization in machine learning or potentially within interactive computing. 
         </p>
+        <br/>
         <p>
             I just recently graduated from the University of Michigan - College of Engineering with a BSE in Computer Science. 
         </p>
+        <br/>
         <p>
             This summer I'll be interning at Amazon as an SDE 1 Intern based in Seattle. 
         </p>
+        <br/>
         </div>
         </div>
         </div>
@@ -69,9 +72,11 @@ class AboutMePage extends React.Component {
             Within computer science I'm primarily interested in machine learning. Particularly natural language understanding/processing. I have experience working with a variety of frameworks such as TensorFlow, PyTorch, NumPy, Scikit-Learn, and Pandas. The majority of my work in this space comes from coursework and a few small personal projects.
             I have experience builidng CNNs and I'm currently tryig to master and learn more about RNNs.
         </p>
+        <br/>
         <p>
             I also enjoy full-stack development due to both creating visually appealing projects as well as seeing my changes immediatly propagate throughout my project. I enjoy using React and Angular for the front-end of my projects. Currently, I'm working on a Vue based web-application to gain more exposure to the framework. 
         </p>
+        <br/>
 
         <p> 
             Outside of computer science and academia, my biggest hobby would definitely be sneaker collecting and reselling. I started this "side business" in high school and have sold over $30,000 in sneakers. I attribute this mostly to my luck within the SNKRS app and the help of my parents who join raffles with me (and often win more than I do). 
@@ -96,8 +101,6 @@ class AboutMePage extends React.Component {
         </div>
         </div>
         </div>
-
-
         <div className='links'>
             <div className='git'>
             <a href='https://github.com/lokrajs' target="_blank" rel="noopener noreferrer">
@@ -108,9 +111,14 @@ class AboutMePage extends React.Component {
                 
             <img src = 'https://logos-world.net/wp-content/uploads/2020/04/Linkedin-Symbol.png'></img>
             </a>
+
+            <a href = "mailto: lokrajs@umich.edu">
+            <img src = 'https://media.istockphoto.com/vectors/mail-post-envelope-icon-shape-postage-letter-logo-symbol-email-sign-vector-id1189293453?k=6&m=1189293453&s=170667a&w=0&h=KNODLsRNNTjNRArR9OZZ9Gn6-Qr7ZNVF5q8Snz3v5ZI='></img>
+            </a>
             </div>
         </div>
         </div>
+        
     
         )
     }

@@ -1,5 +1,6 @@
 .header-bar {
-    background-color: white;
+    background-color: #726cf8;
+    background-image: linear-gradient(315deg, #726cf8 0%, #e975a8 74%);
     top: 0px;
     width: 100%;
     position: fixed;
@@ -7,6 +8,9 @@
     z-index: 9999;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
     
+    a { 
+        text-decoration: none;
+    }
 
 
     .header { 
@@ -15,8 +19,10 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        font-size: larger;
         height: 100%;  
         .header-item { 
+            padding: auto;
             display:inline;
             margin-left: 2rem;
             color:#333;
@@ -24,6 +30,7 @@
         .header-item:hover{
             color: black;
             cursor:pointer;
+            background-color: black;
         }
         .header-item.active{
             border-bottom: 1px solid #333;
@@ -31,3 +38,8 @@
     }
   }
 
+  #resume-header { 
+        margin-left: 1000px;
+  }
+
+  

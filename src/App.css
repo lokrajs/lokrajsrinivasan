@@ -41,10 +41,10 @@
 	}
 }
 .all { 
-  background: linear-gradient(-45deg, #3b2349,#1d1124,#605865,#dfdde0,#ffffff);
+  background: linear-gradient(-45deg, #570388,#1d1124,#605865,#dfdde0,#ffffff);
   background-size: 400% 400%;
   overflow: auto;
-  animation:  15s ease infinite gradient;
+  animation:  30s ease infinite gradient;
   position: relative;
   /* animation: 10000ms ease-in-out infinite color-change;   */
  
@@ -89,18 +89,7 @@
 } */
 
 
-.party { 
-  position: absolute;
-  height: 100%;
-  background-color: black;
-}
 
-.thehuah { 
-  position: relative;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-}
 
 body {
   font-family: 'Cardo', serif;
@@ -112,30 +101,12 @@ body {
  }
 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+
+
 
 .header-item > .active { 
   border-bottom: 10px solid #333;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

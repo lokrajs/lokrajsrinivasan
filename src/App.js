@@ -26,10 +26,10 @@ class App extends React.Component {
         params={{
           particles: { 
             number:{
-              value:50
+              value:30
             },
             color:{
-              value:'#00ff00'
+              value:'#c32aff'
             }
           }
         }}

@@ -42,6 +42,8 @@ const Header = () => (
         >
         Education
         </Link>
+
+        <a id = 'resume-header' className = 'header-item' href = 'https://drive.google.com/file/d/1ctK8ozSk1Q3e2kxx6zjfEaQUjgWkyo27/view?usp=sharing' target="_blank" rel ="noopener noreferrer">Resume</a>
         </div>
 
     </div>
