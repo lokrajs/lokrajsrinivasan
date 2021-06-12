@@ -24,12 +24,32 @@ class App extends React.Component {
         <Particles
         height='300px'
         params={{
+          interactivity:{
+            events:{
+              onHover:{
+                enable:true,
+                mode:'grab'
+              }
+            }
+          },
           particles: { 
+            move:{
+              attract:{
+              rotate:true
+              }
+            },
+            shape:{
+              type:['circle','polygon']
+            },
+            size:{
+              value:10,
+              random:true,
+            },
             number:{
-              value:30
+              value:50
             },
             color:{
-              value:'#c32aff'
+              value:'#1F51FF'
             }
           }
         }}

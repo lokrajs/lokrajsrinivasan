@@ -1,0 +1,29 @@
+.links { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.fa {
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    background: #FF00FF;
+    color: white;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.8;
+
+  }
+
+  
+
+
